@@ -1,0 +1,39 @@
+/*yellow*/
+.yellow{
+	background-color: #F7B32D!important;
+}
+
+/*pink*/
+.pink{
+	background-color: #FF5F5F!important;
+}
+
+
+/*black*/
+.black{
+	background-color: #2C2C2C!important;
+}
+
+
+/*green*/
+.green{
+	background-color: #8bc24c!important;
+}
+
+/*blue*/
+.blue{
+	background-color: #118DF0!important;
+}
+
+/*white*/
+.white{
+	background-color: #fff!important;
+}
+.white .des,.white .title a,.white .title span{
+	color: #121111!important;
+}
+
+/*purple*/
+.purple{
+	background-color: #515bd4!important;
+}

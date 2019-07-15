@@ -1,0 +1,242 @@
+#post{
+    max-width: 1000px;
+    min-height: 100px;
+    background: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 35px;
+    margin: 20px auto;
+    box-shadow:rgba(0,0,0,0.08) 0px 1px 7px 0px;
+}
+#post #article_title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+#post .tag{
+    color: #000;
+    font-size: 22px;
+}
+
+.post_date,.post_cate,.tags{
+    font-size: 12px;
+    line-height: 40px;
+    color: #787878;
+    padding-right: 5px;
+}
+.post_cate a{
+    color: #787878;
+    font-size: 12px;
+}
+.tags a{
+    color: #787878;
+    font-size: 12px;
+}
+#content{
+    line-height: 1.6em;
+    color: #424242;
+    margin-top: 24px;
+}
+#content blockquote {
+    font-size: 18px;
+    font-size: 1rem;
+    line-height: 36px;
+    font-weight: 300;
+    color: #aaa;
+    padding-left: 30px;
+    position: relative;
+    border-left: 4px solid #858585;
+    margin: 30px 0px 30px 40px;
+}
+#content p{
+    text-indent: 2em;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin: 10px 0;
+    vertical-align: baseline;
+    line-height: 1.8;
+}
+pre{
+    font-size: 13px;
+    line-height: 22px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+#content img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 0 2.6875rem rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+code{
+    font-size: 12px;
+    border-radius: 4px;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style-position:inside
+}
+#content h2{
+    text-align: left;
+    font-weight: 500;
+    position: relative;
+    margin: 30px 0 20px;
+    font-size: 1.3em;
+    color: #444;
+}
+#content h2:before{
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    content: '#';
+    color: #eb5055;
+}
+#content h1{
+    text-align: left;
+    font-weight: 500;
+    position: relative;
+    margin: 30px 0 20px;
+    font-size: 1.5em;
+    color: #444;
+}
+#content h1:before{
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    content: '# ';
+    color: #eb5055;
+}
+#content a,#content p a{
+    color: #313131!important;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+#comments{
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 35px;
+    margin: 20px auto;
+    box-shadow:rgba(0,0,0,0.08) 0px 1px 7px 0px;
+}
+.comment-author{
+    position: relative;
+}
+.comment-reply-title{
+    margin-bottom: 15px;
+}
+.comment-reply-title span {
+    border-left: 4px solid #f44336;
+    padding-left: 5px;
+}
+#comment-author-info>div {
+    width: 33.33%;
+    box-sizing: border-box;
+    padding-right: 10px;
+    float: left;
+    padding-bottom: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #e5e9ef;
+    background-color: #f4f5f7;
+    resize: vertical;
+}
+#comment-author-info>div>label {
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 3px;
+    display: block;
+}
+button, .btn {
+    border: 0;
+    background: #eb5055;
+    color: #fff;
+    cursor: pointer;
+    opacity: 1;
+    user-select: none;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 2px 20px;
+    line-height: 25px;
+    width: auto;
+    float: right;
+}
+.comment-list, .comment-list ol, .comment-list ul {
+    list-style: none;
+}
+.comment-list .comment-list{
+    padding-left: 40px;
+}
+#comments>.comment-list>li {
+     padding-top: 20px;
+     list-style: none;
+     border-bottom: 1px dotted #c6c6c6;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 0;
+    vertical-align: middle;
+    user-select: none;
+}
+.comment-body {
+    position: relative;
+    min-height: 55px;
+}
+.comment-avatar-area {
+    position: absolute;
+}
+cite a{
+    text-decoration: none;
+    color: #757575;
+    font-style: normal;
+}
+cite{
+    text-decoration: none;
+    color: #757575;
+    font-style: normal;
+    position: relative;
+    top: -10px;
+}
+.comment-meta a{
+    color: #858585;
+    font-size: 12px;
+    position: relative;
+    top: -25px;
+    left: 53px;
+}
+.comment-meta time{
+    font-size: 12px;
+}
+.comment-content {
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgba(0,0,0,.66);
+    position: relative;
+    top: -20px;
+}
+.comment-reply{
+    padding-bottom: 4px;
+}
+.comment-reply a{
+    border-radius: 4px;
+    color: #F44336;
+    text-decoration: underline;
+    font-size: 13px;
+}
+.comment-meta a{
+    text-decoration: none;
+}
