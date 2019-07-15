@@ -61,3 +61,5 @@ for(var i = 0 ; i < $("time").length ; i++){
 }
 
 $("a").attr("target","_blank");
+$("#nav a").attr("target","");
+$("#title a").attr("target","");
