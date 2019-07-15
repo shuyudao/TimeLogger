@@ -1,6 +1,6 @@
 # TimeLogger
 一款简约简单轻小好看的typecho主题
-演示：[http://www.shuyudao.top][http://www.shuyudao.top]
+演示：[http://www.shuyudao.top]
 
 ## 这款主题的缘由
 主要是我两天前，很无聊，打算给我的博客换个主题，但是找了半个多小时，没找到满意的。于是，我想了想，我干嘛不自己写一个，我之前好歹是学过PHP的，虽然这几个月都在搞JAVA，几乎都忘了。我去瞧了瞧，typecho的文档以及默认主题，觉得还行，挺简单的，开做。
