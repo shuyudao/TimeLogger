@@ -17,7 +17,7 @@ www.shuyudao.top
 
 <div id="footer">
     <p>©2019 <a href="http://www.shuyudao.top">术与道</a> By <a href="http://typecho.org/" style="text-decoration: none;color: #8f8f8f;">typecho</a> &
-        <a href="#" style="text-decoration: none;color: #8f8f8f;">TimeLogger</a>.</p>
+        <a href="http://www.shuyudao.top/index.php/archives/724/" style="text-decoration: none;color: #8f8f8f;">TimeLogger</a>.</p>
 </div>
 </body>
 <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
