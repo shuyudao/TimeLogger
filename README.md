@@ -5,7 +5,7 @@
 压缩包下载：http://www.shuyudao.top/usr/uploads/TimeLogger.zip
 
 ## 更新
-1.1.0 2019-7-24
+1.1.0 [2019-7-24]
 	增加或修改了如下：
 	
 	+ 文章阅读次数统计
