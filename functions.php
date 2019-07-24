@@ -1,4 +1,5 @@
 <?php
+
 //文章阅读次数统计
 function get_post_view($archive)
 {

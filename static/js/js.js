@@ -25,6 +25,7 @@ function ajaxGetMore() {
     return false;
 }
 
+
 //下拉到底部自动加载下一页
 $(window).scroll(function(){
 　　var scrollTop = $(this).scrollTop();
