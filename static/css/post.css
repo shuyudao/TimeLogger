@@ -17,10 +17,11 @@
     color: #000;
     font-size: 22px;
 }
-
+#about{
+    margin-top: 10px;
+}
 .post_date,.post_cate,.tags{
     font-size: 12px;
-    line-height: 40px;
     color: #787878;
     padding-right: 5px;
 }

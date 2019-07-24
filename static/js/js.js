@@ -1,10 +1,14 @@
 //AJAX 无限加载
-$("#next").click(function () {
-	$("#next a").text("loading...");
-	var url = $("#next a").attr("href");
+function ajaxGetMore() {
+    if($("#next").html()=="<span>没有了 ~</span>"||$("#next .next").text()=="loading..."){
+        return false;
+    }
+    $("#next .next").text("loading...");
+    var url = $("#next a").attr("href");
     $.ajax({
         type: "POST",
         url: url,
+        async: true,
         success: function(data) {
             result = $(data).find(".lis");
             nextHref = $(data).find(".next").attr("href");
@@ -19,7 +23,18 @@ $("#next").click(function () {
         }
     });
     return false;
-})
+}
+
+//下拉到底部自动加载下一页
+$(window).scroll(function(){
+　　var scrollTop = $(this).scrollTop();
+　　var scrollHeight = $(document).height();
+　　var windowHeight = $(this).height();
+　　if(Math.abs((scrollTop + windowHeight) - scrollHeight)<1){
+
+　　　　ajaxGetMore();
+　　}
+});
 
 obj = $('#footer');//元素
 

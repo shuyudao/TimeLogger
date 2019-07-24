@@ -9,7 +9,8 @@ $this->need('header.php');
         <div class="about">
             <span class="post_date"><?php $this->date('Y-m-d'); ?></span>
             <span class="post_cate"><?php $this->category(','); ?></span>
-            <span class="tags">Tags: <?php $this->tags(',', true, 'none'); ?></span>
+            <span class="tags">Tags: <?php $this->tags(',', true, '无标签'); ?></span>
+            <span class="tags">阅读: <?php get_post_view($this) ?></span>
         </div>
         <div id="content">
             <?php $this->content() ?>

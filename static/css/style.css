@@ -36,13 +36,12 @@ body,pre{
 }
 #next{
 	width: 100px;
-	height: 36px;
-	background-color: #fff;
-	border-radius: 4px;
-	text-align: center;
-	line-height: 36px;
-	box-shadow:rgba(0,0,0,0.08) 0px 1px 20px 8px;
-	margin: 10px auto;
+    height: 36px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 36px;
+    margin: 10px auto;
+    color: #838383;
 }
 #next a{
 	font-size: 14px;

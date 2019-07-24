@@ -4,7 +4,7 @@
  * 
  * @package TimeLogger
  * @author 术与道
- * @version 1.0.0
+ * @version 1.1.0
  * @link http://www.shuyudao.top
  */
 
@@ -19,7 +19,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 		<?php
 			$i = 0;
 			$index = 0;
-			$color = array("yellow","pink","black","green","blue","white","purple");
+			$color = array("yellow","pink","black","green","blue","purple");
+			//打乱颜色
+			shuffle($color);
 		?>
 		<?php while($this->next()): ?>
 		    <div class="lis">
