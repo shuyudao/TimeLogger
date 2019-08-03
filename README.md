@@ -5,6 +5,10 @@
 压缩包下载：http://www.shuyudao.top/usr/uploads/TimeLogger.zip
 
 ## 更新
+
+1.1.1 [2019-8-3]
+修复：回复评论时打开新页面的问题
+
 1.1.0 [2019-7-24]
 	增加或修改了如下：
 	
