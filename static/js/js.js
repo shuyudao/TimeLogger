@@ -76,6 +76,4 @@ for(var i = 0 ; i < $("time").length ; i++){
     $("time").eq(i).text(date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate()+" "+date.getHours()+":"+(date.getMinutes()>9?date.getMinutes():(0+""+date.getMinutes())))
 }
 
-$("a").attr("target","_blank");
-$("#nav a").attr("target","");
-$("#title a").attr("target","");
+$("#post a").attr("target","_blank");
