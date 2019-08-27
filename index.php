@@ -31,7 +31,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 					<div class="g-lin"></div>
 					<div class="<?php echo "item"." ".$color[$index] ?>">
 						<p class="date"><?php $this->date('Y-m-d'); ?></p>
-						<h2 class="title"><span class="tag">#</span> <a href="<?php $this->permalink() ?>" target="_blank"><?php $this->title() ?></a></h2>
+						<h2 class="title"><span class="tag">#</span><?php $this->sticky();?> <a href="<?php $this->permalink() ?>" target="_blank"> <?php $this->title() ?></a></h2>
 						<div class="des"><?php $this->excerpt(); ?></div>
 					</div>
 				</div>
