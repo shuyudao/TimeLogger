@@ -355,7 +355,7 @@ li>ol,
 li>ul {
     margin: 0 0;
 }
-hr {
+#content hr {
     height: 4px;
     padding: 0;
     margin: 16px 0;
@@ -405,27 +405,27 @@ h6 p {
 li p.first {
     display: inline-block;
 }
-ul,
-ol {
+#content ul,
+#content ol {
     padding-left: 30px;
 }
-ul:first-child,
-ol:first-child {
+#content ul:first-child,
+#content ol:first-child {
     margin-top: 0;
 }
-ul:last-child,
-ol:last-child {
+#content ul:last-child,
+#content ol:last-child {
     margin-bottom: 0;
 }
-blockquote {
+#content blockquote {
     border-left: 4px solid #dddddd;
     padding: 0 15px;
     color: #777777;
 }
-blockquote blockquote {
+#content blockquote blockquote {
     padding-right: 0;
 }
-table {
+#content table {
     padding: 0;
     word-break: initial;
 }
