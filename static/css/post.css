@@ -8,6 +8,12 @@
     margin: 20px auto;
     box-shadow:rgba(0,0,0,0.08) 0px 1px 7px 0px;
 }
+@media screen and (max-width: 500px){
+  #post{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 #post #article_title{
     text-align: center;
     font-weight: 400;
