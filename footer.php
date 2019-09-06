@@ -23,10 +23,13 @@ www.shuyudao.top
 <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
 <script src="<?php $this->options->themeUrl('static/js/js.js');?>"></script>
 <?php if ($this->is('post')||$this->is('page')) : ?>
-    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js"></script>
-    <script>
-        hljs.initHighlightingOnLoad();
-    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/components/prism-core.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/line-numbers/prism-line-numbers.min.js"></script>
+<script>
+$("pre").addClass("line-numbers");
+</script>
 <?php endif; ?>
 
 </html>

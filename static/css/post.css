@@ -10,7 +10,7 @@
 }
 @media screen and (max-width: 500px){
   #post{
-    padding-left: 0px;
+  	padding-left: 0px;
     padding-right: 0px;
   }
 }
@@ -277,12 +277,12 @@ body > *:last-child {
 a {
     color: #4183C4;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
     position: relative;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -290,12 +290,12 @@ h6 {
     line-height: 1.4;
     cursor: text;
 }
-h1:hover a.anchor,
-h2:hover a.anchor,
-h3:hover a.anchor,
-h4:hover a.anchor,
-h5:hover a.anchor,
-h6:hover a.anchor {
+#content h1:hover a.anchor,
+#content h2:hover a.anchor,
+#content h3:hover a.anchor,
+#content h4:hover a.anchor,
+#content h5:hover a.anchor,
+#content h6:hover a.anchor {
     /*background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;*/
     text-decoration: none;
 }
@@ -323,29 +323,31 @@ h6 tt,
 h6 code {
     font-size: inherit;
 }
-h1 {
+#content h1 {
     padding-bottom: .3em;
     font-size: 2.25em;
     line-height: 1.2;
     border-bottom: 1px solid #eee;
 }
-h2 {
+#content h2 {
    padding-bottom: .3em;
     font-size: 1.75em;
     line-height: 1.225;
     border-bottom: 1px solid #eee;
 }
-h3 {
+#content h3 {
     font-size: 1.5em;
     line-height: 1.43;
+    padding-bottom: .3em;
+    border-bottom: 1px solid #eee;
 }
-h4 {
+#content h4 {
     font-size: 1.25em;
 }
-h5 {
+#content h5 {
     font-size: 1em;
 }
-h6 {
+#content h6 {
    font-size: 1em;
     color: #777;
 }
@@ -469,18 +471,6 @@ table tr td:last-child {
     border-right: 1px solid #ddd;
 }
 
-.md-fences,
-code,
-tt {
-    border: 1px solid #ddd;
-    background-color: #f8f8f8;
-    border-radius: 3px;
-    padding: 0;
-    font-family: Consolas, "Liberation Mono", Courier, monospace;
-    padding: 2px 4px 0px 4px;
-    font-size: 0.9em;
-}
-
 .md-fences {
     margin-bottom: 15px;
     margin-top: 15px;
@@ -520,9 +510,6 @@ tt {
     }
 }
 
-.md-fences {
-	background-color: #f8f8f8;
-}
 #content pre.md-meta-block {
 	padding: 1rem;
     font-size: 85%;

@@ -8,7 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('static/css/style.css'); ?>">
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/color.css');?>">
     <?php if ($this->is('post')||$this->is('page')) : ?>
-        <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/dark.css');?>">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/themes/prism-tomorrow.css">
+  		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.15.0/plugins/line-numbers/prism-line-numbers.css">
         <link rel="stylesheet" href="<?php $this->options->themeUrl('static/css/post.css');?>">
     <?php endif; ?>
 </head>
