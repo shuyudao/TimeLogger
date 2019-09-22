@@ -2,8 +2,6 @@
 一款简约简单轻小好看的typecho主题
 演示：[http://www.shuyudao.top]
 
-压缩包下载：http://www.shuyudao.top/usr/uploads/TimeLogger.zip
-
 ## 更新
 1.1.1 2019-9-5
 
